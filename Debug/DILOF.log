@@ -1,0 +1,23 @@
+﻿  exec.cpp
+d:\visualstudio workspace\dilof\libngs\dataset.h(574): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\visualstudio workspace\dilof\libngs\dataset.h(574): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+d:\visualstudio workspace\dilof\dilof.h(84): warning C4305: '*=': truncation from 'double' to 'float'
+d:\visualstudio workspace\dilof\dilof.h(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\visualstudio workspace\dilof\dilof.h(238): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\visualstudio workspace\dilof\dilof.h(240): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\visualstudio workspace\dilof\libngs\rnd.h(21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  d:\visualstudio workspace\dilof\libngs\rnd.h(98): note: see reference to function template instantiation 'T Rnd::rand<float>(const T,const T)' being compiled
+          with
+          [
+              T=float
+          ]
+d:\visualstudio workspace\dilof\libngs\rnd.h(21): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+d:\visualstudio workspace\dilof\libngs\rnd.h(48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  d:\visualstudio workspace\dilof\libngs\dataset.h(417): note: see reference to function template instantiation 'void Rnd::randSeq<int>(T *&,const T,const T,const int,const bool)' being compiled
+          with
+          [
+              T=int
+          ]
+d:\visualstudio workspace\dilof\libngs\rnd.h(83): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  DILOF.vcxproj -> D:\VisualStudio workspace\DILOF\Debug\DILOF.exe
+  DILOF.vcxproj -> D:\VisualStudio workspace\DILOF\Debug\DILOF.pdb (Full PDB)

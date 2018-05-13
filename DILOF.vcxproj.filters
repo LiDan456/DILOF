@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OutlierDetection">
+      <UniqueIdentifier>{39dd7f88-00d0-4566-959f-10e601221889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{27f1d13e-47fa-408f-936f-600ef5cb60f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DatasetConfiguration.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperimentScript.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="LOFConfiguration.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DILOF.h">
+      <Filter>OutlierDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="IncrementalLOF.h">
+      <Filter>OutlierDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="LOF.h">
+      <Filter>OutlierDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="DILOF_NS.h">
+      <Filter>OutlierDetection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exec.cpp" />
+  </ItemGroup>
+</Project>
